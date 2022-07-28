@@ -1,5 +1,5 @@
 server:
-  port: 8083
+  port: $PORT
 spring:
   datasource:
     url: jdbc:Mysql://walab.handong.edu:3306/camp1
