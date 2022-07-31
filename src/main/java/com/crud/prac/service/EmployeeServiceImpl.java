@@ -1,8 +1,9 @@
-package net.javaguides.springboot.service;
+package com.crud.prac.service;
 
 import java.util.List;
 import java.util.Optional;
 
+import com.crud.prac.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -10,8 +11,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
-import net.javaguides.springboot.model.Employee;
-import net.javaguides.springboot.repository.EmployeeRepository;
+import com.crud.prac.model.Employee;
 
 @Service
 public class EmployeeServiceImpl implements EmployeeService {
